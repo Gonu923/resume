@@ -17,7 +17,7 @@ function App() {
         <Navigation />
         <br/>
         <Switch>
-          <Route exact path="/home" component={Home}/>
+          <Route path="/" exact component={Home}/>
           <Route path="/resume" component={Resume}/>
           <Route path="/projects" component={Projects}/>
           <Route path="/contact" component={Contact}/>
